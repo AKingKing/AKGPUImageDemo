@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8700EF001DD95D7A00ED6D6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8700EEFF1DD95D7A00ED6D6D /* main.m */; };
+		8700EF031DD95D7A00ED6D6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8700EF021DD95D7A00ED6D6D /* AppDelegate.m */; };
+		8700EF061DD95D7A00ED6D6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8700EF051DD95D7A00ED6D6D /* ViewController.m */; };
+		8700EF091DD95D7A00ED6D6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8700EF071DD95D7A00ED6D6D /* Main.storyboard */; };
+		8700EF0B1DD95D7A00ED6D6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8700EF0A1DD95D7A00ED6D6D /* Assets.xcassets */; };
+		8700EF0E1DD95D7A00ED6D6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8700EF0C1DD95D7A00ED6D6D /* LaunchScreen.storyboard */; };
+		8700EF191DD95D7A00ED6D6D /* AKGPUImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8700EF181DD95D7A00ED6D6D /* AKGPUImageTests.m */; };
+		8700EF241DD95D7A00ED6D6D /* AKGPUImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8700EF231DD95D7A00ED6D6D /* AKGPUImageUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8700EF151DD95D7A00ED6D6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8700EEF31DD95D7A00ED6D6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8700EEFA1DD95D7A00ED6D6D;
+			remoteInfo = AKGPUImage;
+		};
+		8700EF201DD95D7A00ED6D6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8700EEF31DD95D7A00ED6D6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8700EEFA1DD95D7A00ED6D6D;
+			remoteInfo = AKGPUImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8700EEFB1DD95D7A00ED6D6D /* AKGPUImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKGPUImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8700EEFF1DD95D7A00ED6D6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8700EF011DD95D7A00ED6D6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8700EF021DD95D7A00ED6D6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8700EF041DD95D7A00ED6D6D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8700EF051DD95D7A00ED6D6D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8700EF081DD95D7A00ED6D6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8700EF0A1DD95D7A00ED6D6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8700EF0D1DD95D7A00ED6D6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8700EF0F1DD95D7A00ED6D6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8700EF141DD95D7A00ED6D6D /* AKGPUImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKGPUImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8700EF181DD95D7A00ED6D6D /* AKGPUImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKGPUImageTests.m; sourceTree = "<group>"; };
+		8700EF1A1DD95D7A00ED6D6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8700EF1F1DD95D7A00ED6D6D /* AKGPUImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKGPUImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8700EF231DD95D7A00ED6D6D /* AKGPUImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKGPUImageUITests.m; sourceTree = "<group>"; };
+		8700EF251DD95D7A00ED6D6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8700EEF81DD95D7A00ED6D6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8700EF111DD95D7A00ED6D6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8700EF1C1DD95D7A00ED6D6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8700EEF21DD95D7A00ED6D6D = {
+			isa = PBXGroup;
+			children = (
+				8700EEFD1DD95D7A00ED6D6D /* AKGPUImage */,
+				8700EF171DD95D7A00ED6D6D /* AKGPUImageTests */,
+				8700EF221DD95D7A00ED6D6D /* AKGPUImageUITests */,
+				8700EEFC1DD95D7A00ED6D6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8700EEFC1DD95D7A00ED6D6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8700EEFB1DD95D7A00ED6D6D /* AKGPUImage.app */,
+				8700EF141DD95D7A00ED6D6D /* AKGPUImageTests.xctest */,
+				8700EF1F1DD95D7A00ED6D6D /* AKGPUImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8700EEFD1DD95D7A00ED6D6D /* AKGPUImage */ = {
+			isa = PBXGroup;
+			children = (
+				8700EF011DD95D7A00ED6D6D /* AppDelegate.h */,
+				8700EF021DD95D7A00ED6D6D /* AppDelegate.m */,
+				8700EF041DD95D7A00ED6D6D /* ViewController.h */,
+				8700EF051DD95D7A00ED6D6D /* ViewController.m */,
+				8700EF071DD95D7A00ED6D6D /* Main.storyboard */,
+				8700EF0A1DD95D7A00ED6D6D /* Assets.xcassets */,
+				8700EF0C1DD95D7A00ED6D6D /* LaunchScreen.storyboard */,
+				8700EF0F1DD95D7A00ED6D6D /* Info.plist */,
+				8700EEFE1DD95D7A00ED6D6D /* Supporting Files */,
+			);
+			path = AKGPUImage;
+			sourceTree = "<group>";
+		};
+		8700EEFE1DD95D7A00ED6D6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8700EEFF1DD95D7A00ED6D6D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8700EF171DD95D7A00ED6D6D /* AKGPUImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				8700EF181DD95D7A00ED6D6D /* AKGPUImageTests.m */,
+				8700EF1A1DD95D7A00ED6D6D /* Info.plist */,
+			);
+			path = AKGPUImageTests;
+			sourceTree = "<group>";
+		};
+		8700EF221DD95D7A00ED6D6D /* AKGPUImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8700EF231DD95D7A00ED6D6D /* AKGPUImageUITests.m */,
+				8700EF251DD95D7A00ED6D6D /* Info.plist */,
+			);
+			path = AKGPUImageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8700EEFA1DD95D7A00ED6D6D /* AKGPUImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8700EF281DD95D7A00ED6D6D /* Build configuration list for PBXNativeTarget "AKGPUImage" */;
+			buildPhases = (
+				8700EEF71DD95D7A00ED6D6D /* Sources */,
+				8700EEF81DD95D7A00ED6D6D /* Frameworks */,
+				8700EEF91DD95D7A00ED6D6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AKGPUImage;
+			productName = AKGPUImage;
+			productReference = 8700EEFB1DD95D7A00ED6D6D /* AKGPUImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8700EF131DD95D7A00ED6D6D /* AKGPUImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8700EF2B1DD95D7A00ED6D6D /* Build configuration list for PBXNativeTarget "AKGPUImageTests" */;
+			buildPhases = (
+				8700EF101DD95D7A00ED6D6D /* Sources */,
+				8700EF111DD95D7A00ED6D6D /* Frameworks */,
+				8700EF121DD95D7A00ED6D6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8700EF161DD95D7A00ED6D6D /* PBXTargetDependency */,
+			);
+			name = AKGPUImageTests;
+			productName = AKGPUImageTests;
+			productReference = 8700EF141DD95D7A00ED6D6D /* AKGPUImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8700EF1E1DD95D7A00ED6D6D /* AKGPUImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8700EF2E1DD95D7A00ED6D6D /* Build configuration list for PBXNativeTarget "AKGPUImageUITests" */;
+			buildPhases = (
+				8700EF1B1DD95D7A00ED6D6D /* Sources */,
+				8700EF1C1DD95D7A00ED6D6D /* Frameworks */,
+				8700EF1D1DD95D7A00ED6D6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8700EF211DD95D7A00ED6D6D /* PBXTargetDependency */,
+			);
+			name = AKGPUImageUITests;
+			productName = AKGPUImageUITests;
+			productReference = 8700EF1F1DD95D7A00ED6D6D /* AKGPUImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8700EEF31DD95D7A00ED6D6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = AKing;
+				TargetAttributes = {
+					8700EEFA1DD95D7A00ED6D6D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					8700EF131DD95D7A00ED6D6D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8700EEFA1DD95D7A00ED6D6D;
+					};
+					8700EF1E1DD95D7A00ED6D6D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8700EEFA1DD95D7A00ED6D6D;
+					};
+				};
+			};
+			buildConfigurationList = 8700EEF61DD95D7A00ED6D6D /* Build configuration list for PBXProject "AKGPUImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8700EEF21DD95D7A00ED6D6D;
+			productRefGroup = 8700EEFC1DD95D7A00ED6D6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8700EEFA1DD95D7A00ED6D6D /* AKGPUImage */,
+				8700EF131DD95D7A00ED6D6D /* AKGPUImageTests */,
+				8700EF1E1DD95D7A00ED6D6D /* AKGPUImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8700EEF91DD95D7A00ED6D6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8700EF0E1DD95D7A00ED6D6D /* LaunchScreen.storyboard in Resources */,
+				8700EF0B1DD95D7A00ED6D6D /* Assets.xcassets in Resources */,
+				8700EF091DD95D7A00ED6D6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8700EF121DD95D7A00ED6D6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8700EF1D1DD95D7A00ED6D6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8700EEF71DD95D7A00ED6D6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8700EF061DD95D7A00ED6D6D /* ViewController.m in Sources */,
+				8700EF031DD95D7A00ED6D6D /* AppDelegate.m in Sources */,
+				8700EF001DD95D7A00ED6D6D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8700EF101DD95D7A00ED6D6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8700EF191DD95D7A00ED6D6D /* AKGPUImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8700EF1B1DD95D7A00ED6D6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8700EF241DD95D7A00ED6D6D /* AKGPUImageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8700EF161DD95D7A00ED6D6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8700EEFA1DD95D7A00ED6D6D /* AKGPUImage */;
+			targetProxy = 8700EF151DD95D7A00ED6D6D /* PBXContainerItemProxy */;
+		};
+		8700EF211DD95D7A00ED6D6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8700EEFA1DD95D7A00ED6D6D /* AKGPUImage */;
+			targetProxy = 8700EF201DD95D7A00ED6D6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8700EF071DD95D7A00ED6D6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8700EF081DD95D7A00ED6D6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8700EF0C1DD95D7A00ED6D6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8700EF0D1DD95D7A00ED6D6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8700EF261DD95D7A00ED6D6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8700EF271DD95D7A00ED6D6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8700EF291DD95D7A00ED6D6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AKGPUImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aking.AKGPUImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8700EF2A1DD95D7A00ED6D6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AKGPUImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aking.AKGPUImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8700EF2C1DD95D7A00ED6D6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AKGPUImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aking.AKGPUImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AKGPUImage.app/AKGPUImage";
+			};
+			name = Debug;
+		};
+		8700EF2D1DD95D7A00ED6D6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AKGPUImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aking.AKGPUImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AKGPUImage.app/AKGPUImage";
+			};
+			name = Release;
+		};
+		8700EF2F1DD95D7A00ED6D6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AKGPUImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aking.AKGPUImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AKGPUImage;
+			};
+			name = Debug;
+		};
+		8700EF301DD95D7A00ED6D6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AKGPUImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aking.AKGPUImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AKGPUImage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8700EEF61DD95D7A00ED6D6D /* Build configuration list for PBXProject "AKGPUImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8700EF261DD95D7A00ED6D6D /* Debug */,
+				8700EF271DD95D7A00ED6D6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8700EF281DD95D7A00ED6D6D /* Build configuration list for PBXNativeTarget "AKGPUImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8700EF291DD95D7A00ED6D6D /* Debug */,
+				8700EF2A1DD95D7A00ED6D6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8700EF2B1DD95D7A00ED6D6D /* Build configuration list for PBXNativeTarget "AKGPUImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8700EF2C1DD95D7A00ED6D6D /* Debug */,
+				8700EF2D1DD95D7A00ED6D6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8700EF2E1DD95D7A00ED6D6D /* Build configuration list for PBXNativeTarget "AKGPUImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8700EF2F1DD95D7A00ED6D6D /* Debug */,
+				8700EF301DD95D7A00ED6D6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8700EEF31DD95D7A00ED6D6D /* Project object */;
+}
