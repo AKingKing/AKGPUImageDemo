@@ -15,6 +15,7 @@
 		8700EF0E1DD95D7A00ED6D6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8700EF0C1DD95D7A00ED6D6D /* LaunchScreen.storyboard */; };
 		8700EF191DD95D7A00ED6D6D /* AKGPUImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8700EF181DD95D7A00ED6D6D /* AKGPUImageTests.m */; };
 		8700EF241DD95D7A00ED6D6D /* AKGPUImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8700EF231DD95D7A00ED6D6D /* AKGPUImageUITests.m */; };
+		B09097DDBCE8E299F28DB6A5 /* libPods-AKGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBBC9460B391D5D3B3C79E92 /* libPods-AKGPUImage.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D96B0D1D384F829F9428055 /* Pods-AKGPUImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKGPUImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-AKGPUImage/Pods-AKGPUImage.release.xcconfig"; sourceTree = "<group>"; };
 		8700EEFB1DD95D7A00ED6D6D /* AKGPUImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKGPUImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8700EEFF1DD95D7A00ED6D6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8700EF011DD95D7A00ED6D6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		8700EF1F1DD95D7A00ED6D6D /* AKGPUImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKGPUImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8700EF231DD95D7A00ED6D6D /* AKGPUImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKGPUImageUITests.m; sourceTree = "<group>"; };
 		8700EF251DD95D7A00ED6D6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9607F13B9ED786CAC8959171 /* Pods-AKGPUImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKGPUImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AKGPUImage/Pods-AKGPUImage.debug.xcconfig"; sourceTree = "<group>"; };
+		FBBC9460B391D5D3B3C79E92 /* libPods-AKGPUImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AKGPUImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B09097DDBCE8E299F28DB6A5 /* libPods-AKGPUImage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D06D44927C94D34D6EFD692 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBBC9460B391D5D3B3C79E92 /* libPods-AKGPUImage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8700EEF21DD95D7A00ED6D6D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +98,8 @@
 				8700EF171DD95D7A00ED6D6D /* AKGPUImageTests */,
 				8700EF221DD95D7A00ED6D6D /* AKGPUImageUITests */,
 				8700EEFC1DD95D7A00ED6D6D /* Products */,
+				CBCBACA890FD216706E50930 /* Pods */,
+				7D06D44927C94D34D6EFD692 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +155,15 @@
 			path = AKGPUImageUITests;
 			sourceTree = "<group>";
 		};
+		CBCBACA890FD216706E50930 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9607F13B9ED786CAC8959171 /* Pods-AKGPUImage.debug.xcconfig */,
+				1D96B0D1D384F829F9428055 /* Pods-AKGPUImage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8700EF281DD95D7A00ED6D6D /* Build configuration list for PBXNativeTarget "AKGPUImage" */;
 			buildPhases = (
+				8B741B65808D3913DC774761 /* [CP] Check Pods Manifest.lock */,
 				8700EEF71DD95D7A00ED6D6D /* Sources */,
 				8700EEF81DD95D7A00ED6D6D /* Frameworks */,
 				8700EEF91DD95D7A00ED6D6D /* Resources */,
+				9183C4F64602C3159866BD7C /* [CP] Embed Pods Frameworks */,
+				8679C9862F9EA9664B8D34F0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -267,6 +294,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8679C9862F9EA9664B8D34F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AKGPUImage/Pods-AKGPUImage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B741B65808D3913DC774761 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9183C4F64602C3159866BD7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AKGPUImage/Pods-AKGPUImage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8700EEF71DD95D7A00ED6D6D /* Sources */ = {
@@ -422,6 +497,7 @@
 		};
 		8700EF291DD95D7A00ED6D6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9607F13B9ED786CAC8959171 /* Pods-AKGPUImage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AKGPUImage/Info.plist;
@@ -433,6 +509,7 @@
 		};
 		8700EF2A1DD95D7A00ED6D6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D96B0D1D384F829F9428055 /* Pods-AKGPUImage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AKGPUImage/Info.plist;
@@ -507,6 +584,7 @@
 				8700EF2A1DD95D7A00ED6D6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8700EF2B1DD95D7A00ED6D6D /* Build configuration list for PBXNativeTarget "AKGPUImageTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +593,7 @@
 				8700EF2D1DD95D7A00ED6D6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8700EF2E1DD95D7A00ED6D6D /* Build configuration list for PBXNativeTarget "AKGPUImageUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +602,7 @@
 				8700EF301DD95D7A00ED6D6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

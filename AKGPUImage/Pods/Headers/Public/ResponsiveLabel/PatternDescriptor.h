@@ -1,0 +1,1 @@
+../../../ResponsiveLabel/ResponsiveLabel/ResponsiveLabel/Source/PatternDescriptor.h
