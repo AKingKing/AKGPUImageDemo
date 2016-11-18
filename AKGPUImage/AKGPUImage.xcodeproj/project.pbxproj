@@ -198,19 +198,11 @@
 		871F31A31DDEF2F2005356F2 /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				871F31A41DDEF2F2005356F2 /* AudioRecognizer */,
 				871F31AF1DDEF2F2005356F2 /* Category */,
 				871F31B01DDEF2F2005356F2 /* DHGPU */,
 				871F31C51DDEF2F2005356F2 /* TrackFace */,
 			);
 			path = Library;
-			sourceTree = "<group>";
-		};
-		871F31A41DDEF2F2005356F2 /* AudioRecognizer */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = AudioRecognizer;
 			sourceTree = "<group>";
 		};
 		871F31AF1DDEF2F2005356F2 /* Category */ = {
