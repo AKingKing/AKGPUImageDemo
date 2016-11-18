@@ -15,6 +15,16 @@
 		8700EF0E1DD95D7A00ED6D6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8700EF0C1DD95D7A00ED6D6D /* LaunchScreen.storyboard */; };
 		8700EF191DD95D7A00ED6D6D /* AKGPUImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8700EF181DD95D7A00ED6D6D /* AKGPUImageTests.m */; };
 		8700EF241DD95D7A00ED6D6D /* AKGPUImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8700EF231DD95D7A00ED6D6D /* AKGPUImageUITests.m */; };
+		871F31E11DDEF2F2005356F2 /* DHGPUCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 871F31B21DDEF2F2005356F2 /* DHGPUCameraView.m */; };
+		871F31E21DDEF2F2005356F2 /* DHLookupFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 871F31B41DDEF2F2005356F2 /* DHLookupFilter.m */; };
+		871F31E31DDEF2F2005356F2 /* DHUIElementFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 871F31B61DDEF2F2005356F2 /* DHUIElementFilter.m */; };
+		871F31E41DDEF2F2005356F2 /* DHUIElementItemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 871F31B81DDEF2F2005356F2 /* DHUIElementItemManager.m */; };
+		871F31E51DDEF2F2005356F2 /* DHUIElementMultiplyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 871F31BA1DDEF2F2005356F2 /* DHUIElementMultiplyFilter.m */; };
+		871F31E61DDEF2F2005356F2 /* DHUIElementOverlayFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 871F31BC1DDEF2F2005356F2 /* DHUIElementOverlayFilter.m */; };
+		871F31E71DDEF2F2005356F2 /* DHUIElementSoftLightFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 871F31BE1DDEF2F2005356F2 /* DHUIElementSoftLightFilter.m */; };
+		871F31E81DDEF2F2005356F2 /* GPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 871F31C01DDEF2F2005356F2 /* GPUImageBeautifyFilter.m */; };
+		871F31E91DDEF2F2005356F2 /* GPUImageFaceliftFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 871F31C21DDEF2F2005356F2 /* GPUImageFaceliftFilter.m */; };
+		871F31EA1DDEF2F2005356F2 /* UIImage+UIImageReadWithSN.m in Sources */ = {isa = PBXBuildFile; fileRef = 871F31C41DDEF2F2005356F2 /* UIImage+UIImageReadWithSN.m */; };
 		B09097DDBCE8E299F28DB6A5 /* libPods-AKGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBBC9460B391D5D3B3C79E92 /* libPods-AKGPUImage.a */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +63,26 @@
 		8700EF1F1DD95D7A00ED6D6D /* AKGPUImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKGPUImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8700EF231DD95D7A00ED6D6D /* AKGPUImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKGPUImageUITests.m; sourceTree = "<group>"; };
 		8700EF251DD95D7A00ED6D6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		871F31B11DDEF2F2005356F2 /* DHGPUCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHGPUCameraView.h; sourceTree = "<group>"; };
+		871F31B21DDEF2F2005356F2 /* DHGPUCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHGPUCameraView.m; sourceTree = "<group>"; };
+		871F31B31DDEF2F2005356F2 /* DHLookupFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHLookupFilter.h; sourceTree = "<group>"; };
+		871F31B41DDEF2F2005356F2 /* DHLookupFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHLookupFilter.m; sourceTree = "<group>"; };
+		871F31B51DDEF2F2005356F2 /* DHUIElementFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHUIElementFilter.h; sourceTree = "<group>"; };
+		871F31B61DDEF2F2005356F2 /* DHUIElementFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHUIElementFilter.m; sourceTree = "<group>"; };
+		871F31B71DDEF2F2005356F2 /* DHUIElementItemManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHUIElementItemManager.h; sourceTree = "<group>"; };
+		871F31B81DDEF2F2005356F2 /* DHUIElementItemManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHUIElementItemManager.m; sourceTree = "<group>"; };
+		871F31B91DDEF2F2005356F2 /* DHUIElementMultiplyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHUIElementMultiplyFilter.h; sourceTree = "<group>"; };
+		871F31BA1DDEF2F2005356F2 /* DHUIElementMultiplyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHUIElementMultiplyFilter.m; sourceTree = "<group>"; };
+		871F31BB1DDEF2F2005356F2 /* DHUIElementOverlayFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHUIElementOverlayFilter.h; sourceTree = "<group>"; };
+		871F31BC1DDEF2F2005356F2 /* DHUIElementOverlayFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHUIElementOverlayFilter.m; sourceTree = "<group>"; };
+		871F31BD1DDEF2F2005356F2 /* DHUIElementSoftLightFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHUIElementSoftLightFilter.h; sourceTree = "<group>"; };
+		871F31BE1DDEF2F2005356F2 /* DHUIElementSoftLightFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHUIElementSoftLightFilter.m; sourceTree = "<group>"; };
+		871F31BF1DDEF2F2005356F2 /* GPUImageBeautifyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageBeautifyFilter.h; sourceTree = "<group>"; };
+		871F31C01DDEF2F2005356F2 /* GPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBeautifyFilter.m; sourceTree = "<group>"; };
+		871F31C11DDEF2F2005356F2 /* GPUImageFaceliftFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageFaceliftFilter.h; sourceTree = "<group>"; };
+		871F31C21DDEF2F2005356F2 /* GPUImageFaceliftFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageFaceliftFilter.m; sourceTree = "<group>"; };
+		871F31C31DDEF2F2005356F2 /* UIImage+UIImageReadWithSN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UIImageReadWithSN.h"; sourceTree = "<group>"; };
+		871F31C41DDEF2F2005356F2 /* UIImage+UIImageReadWithSN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UIImageReadWithSN.m"; sourceTree = "<group>"; };
 		9607F13B9ED786CAC8959171 /* Pods-AKGPUImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKGPUImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AKGPUImage/Pods-AKGPUImage.debug.xcconfig"; sourceTree = "<group>"; };
 		FBBC9460B391D5D3B3C79E92 /* libPods-AKGPUImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AKGPUImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -94,6 +124,8 @@
 		8700EEF21DD95D7A00ED6D6D = {
 			isa = PBXGroup;
 			children = (
+				871F31DB1DDEF2F2005356F2 /* AKResource */,
+				871F31A21DDEF2F2005356F2 /* AKClass */,
 				8700EEFD1DD95D7A00ED6D6D /* AKGPUImage */,
 				8700EF171DD95D7A00ED6D6D /* AKGPUImageTests */,
 				8700EF221DD95D7A00ED6D6D /* AKGPUImageUITests */,
@@ -153,6 +185,80 @@
 				8700EF251DD95D7A00ED6D6D /* Info.plist */,
 			);
 			path = AKGPUImageUITests;
+			sourceTree = "<group>";
+		};
+		871F31A21DDEF2F2005356F2 /* AKClass */ = {
+			isa = PBXGroup;
+			children = (
+				871F31A31DDEF2F2005356F2 /* Library */,
+			);
+			path = AKClass;
+			sourceTree = "<group>";
+		};
+		871F31A31DDEF2F2005356F2 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				871F31A41DDEF2F2005356F2 /* AudioRecognizer */,
+				871F31AF1DDEF2F2005356F2 /* Category */,
+				871F31B01DDEF2F2005356F2 /* DHGPU */,
+				871F31C51DDEF2F2005356F2 /* TrackFace */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		871F31A41DDEF2F2005356F2 /* AudioRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AudioRecognizer;
+			sourceTree = "<group>";
+		};
+		871F31AF1DDEF2F2005356F2 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		871F31B01DDEF2F2005356F2 /* DHGPU */ = {
+			isa = PBXGroup;
+			children = (
+				871F31B11DDEF2F2005356F2 /* DHGPUCameraView.h */,
+				871F31B21DDEF2F2005356F2 /* DHGPUCameraView.m */,
+				871F31B31DDEF2F2005356F2 /* DHLookupFilter.h */,
+				871F31B41DDEF2F2005356F2 /* DHLookupFilter.m */,
+				871F31B51DDEF2F2005356F2 /* DHUIElementFilter.h */,
+				871F31B61DDEF2F2005356F2 /* DHUIElementFilter.m */,
+				871F31B71DDEF2F2005356F2 /* DHUIElementItemManager.h */,
+				871F31B81DDEF2F2005356F2 /* DHUIElementItemManager.m */,
+				871F31B91DDEF2F2005356F2 /* DHUIElementMultiplyFilter.h */,
+				871F31BA1DDEF2F2005356F2 /* DHUIElementMultiplyFilter.m */,
+				871F31BB1DDEF2F2005356F2 /* DHUIElementOverlayFilter.h */,
+				871F31BC1DDEF2F2005356F2 /* DHUIElementOverlayFilter.m */,
+				871F31BD1DDEF2F2005356F2 /* DHUIElementSoftLightFilter.h */,
+				871F31BE1DDEF2F2005356F2 /* DHUIElementSoftLightFilter.m */,
+				871F31BF1DDEF2F2005356F2 /* GPUImageBeautifyFilter.h */,
+				871F31C01DDEF2F2005356F2 /* GPUImageBeautifyFilter.m */,
+				871F31C11DDEF2F2005356F2 /* GPUImageFaceliftFilter.h */,
+				871F31C21DDEF2F2005356F2 /* GPUImageFaceliftFilter.m */,
+				871F31C31DDEF2F2005356F2 /* UIImage+UIImageReadWithSN.h */,
+				871F31C41DDEF2F2005356F2 /* UIImage+UIImageReadWithSN.m */,
+			);
+			path = DHGPU;
+			sourceTree = "<group>";
+		};
+		871F31C51DDEF2F2005356F2 /* TrackFace */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TrackFace;
+			sourceTree = "<group>";
+		};
+		871F31DB1DDEF2F2005356F2 /* AKResource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AKResource;
 			sourceTree = "<group>";
 		};
 		CBCBACA890FD216706E50930 /* Pods */ = {
@@ -348,9 +454,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				871F31E51DDEF2F2005356F2 /* DHUIElementMultiplyFilter.m in Sources */,
+				871F31E81DDEF2F2005356F2 /* GPUImageBeautifyFilter.m in Sources */,
+				871F31E61DDEF2F2005356F2 /* DHUIElementOverlayFilter.m in Sources */,
+				871F31E21DDEF2F2005356F2 /* DHLookupFilter.m in Sources */,
+				871F31E11DDEF2F2005356F2 /* DHGPUCameraView.m in Sources */,
 				8700EF061DD95D7A00ED6D6D /* ViewController.m in Sources */,
+				871F31EA1DDEF2F2005356F2 /* UIImage+UIImageReadWithSN.m in Sources */,
+				871F31E71DDEF2F2005356F2 /* DHUIElementSoftLightFilter.m in Sources */,
+				871F31E91DDEF2F2005356F2 /* GPUImageFaceliftFilter.m in Sources */,
 				8700EF031DD95D7A00ED6D6D /* AppDelegate.m in Sources */,
 				8700EF001DD95D7A00ED6D6D /* main.m in Sources */,
+				871F31E41DDEF2F2005356F2 /* DHUIElementItemManager.m in Sources */,
+				871F31E31DDEF2F2005356F2 /* DHUIElementFilter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,6 +616,10 @@
 			baseConfigurationReference = 9607F13B9ED786CAC8959171 /* Pods-AKGPUImage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AKClass/Library/TrackFace",
+				);
 				INFOPLIST_FILE = AKGPUImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aking.AKGPUImage;
@@ -512,6 +632,10 @@
 			baseConfigurationReference = 1D96B0D1D384F829F9428055 /* Pods-AKGPUImage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AKClass/Library/TrackFace",
+				);
 				INFOPLIST_FILE = AKGPUImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aking.AKGPUImage;
